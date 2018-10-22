@@ -241,6 +241,9 @@ body a{
 .logonew img{
   width: 75%;
 }
+.star img{
+  width: 35%;
+}
 .logo img{
   width: 65px;
 }
@@ -399,9 +402,9 @@ nav a#pull {
 	}
 }
 /*---- benner ----*/
-.banner-info{
+/*.banner-info{
 	padding: 9em 0 12em;
-}
+}*/
 .banner-info h1{
   font-family: helvetica;
 	font-weight: 700;
@@ -823,6 +826,14 @@ a.leran-more:hover{
 .container_hookah img {
   width: 33.3333%;
 }
+.container_tobacco {
+  display:  table;
+  width: 100%;
+}
+.container_tobacco img{
+  max-width: 50%;
+  height: 365px;
+}
 /*--end hookah--*/
 /*---team-members--*/
 .team-members{
@@ -1161,6 +1172,9 @@ a.leran-more:hover{
   .logonew img{
     width: 100%;
   }
+  .star img {
+    width: 50%;
+  }
   .portfolio-top-right{
   	min-height:500px;
   	background:url(port-right-divice.jpg) no-repeat 0px 0px;
@@ -1176,6 +1190,12 @@ a.leran-more:hover{
   }
   .container_hookah img {
     width: 100%;
+  }
+  .container_tobacco{
+    display: grid;
+  }
+  .container_tobacco img {
+    max-width: 100%;
   }
 	.banner-info h1 {
 		font-size: 2.8em;
