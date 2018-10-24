@@ -696,6 +696,18 @@ a.leran-more:hover{
 	background: #35C2F8;
 	display: inline-block;
 }
+
+
+.NYC img{
+  max-width: 100%;
+  max-height: 500px;
+}
+.portfolio-top-right-inner {
+    top: 100px;
+}
+
+
+
 /*--about-time-line--*/
 .about-time-line{
 	padding: 0;
@@ -1162,6 +1174,11 @@ a.leran-more:hover{
 		left: 52%;
 	}
 }
+@media (max-width: 1000px) {
+  .portfolio-top-right-inner {
+      top: 0px;
+  }
+}
 @media (max-width:768px){
   .expertice-right-grid{
     display: none;
@@ -1185,6 +1202,7 @@ a.leran-more:hover{
 		padding: 2.4em 1em 0em 1em;
     width: 100%;
 	}
+
   .container_hookah{
     display: grid;
   }
